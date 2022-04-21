@@ -14,8 +14,9 @@ let package = Package(
         .target(
             name: "PieChart",
             dependencies: [],
-            path: "JustPieChart/JustPieChart/Classes",
-            publicHeadersPath: "."
+            path: ".",
+            exclude: ["JustPieChart/Example", "Screen.png", "LICENSE", "JustPieChart.podspec", "JustPieChart/JustPieChart/Assets"],
+            publicHeadersPath: "JustPieChart/JustPieChart/Classes"
         )
     ]
 )
